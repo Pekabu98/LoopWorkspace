@@ -284,6 +284,9 @@ jobs:
           # Several patches may be added per submodule.
           # Adding comments (#) may be useful to easily tell the individual patches apart.
 
+          # Module: File: code customization description
+          # curl https://github.com/Pekabu98/LoopKit/commit/c65472ab83fad6b89858ec1882484b227a54312c.patch | git apply -v --directory=LoopKit
+
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
         run: |
